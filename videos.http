@@ -1,0 +1,16 @@
+@api = http://localhost:5000
+
+GET http://localhost:5000/videos HTTP/1.1
+
+###
+GET http://localhost:5000/videos/1 HTTP/1.1
+
+###
+POST {{api}}/videos HTTP/1.1
+
+###
+
+DELETE {{api}}/videos/1 HTTP/1.1
+
+###
+PUT {{api}}/videos/1 HTTP/1.1
